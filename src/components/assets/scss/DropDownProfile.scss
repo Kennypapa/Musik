@@ -1,13 +1,14 @@
 .dropdown-profile {
   position: absolute;
   z-index: 100000;
-  top: 67px;
-  right: 7px;
-  border-radius: 0 0 10px 10px;
+  top: 70px;
+  right: 15px;
+  border-radius: 10px;
   border: 1px solid #e0e0e0;
   user-select: none;
   display: flex;
   flex-direction: column;
+  padding: 0px 8px!important;
   .MuiSvgIcon-root{
     color: #07689f;
   }

@@ -4,7 +4,7 @@
   align-items: center;
   height: 80vh;
   overflow: auto;
-  background-color: #faf5f5;
+background: linear-gradient(90deg, rgba(198,10,240,0.8743872549019608) 0%, rgba(128,27,27,0.8743872549019608) 61%)!important;
 }
 .aside-bar .library-container {
   display: flex;

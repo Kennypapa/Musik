@@ -75,7 +75,7 @@ function Home() {
 
 
     return (
-        <div style={useStyle.component} className={"home-container"}>
+        <div  className={"home-container"}>
             {
                 !loaded ?
                     <div className="Home-skeleton">

@@ -46,6 +46,7 @@ const SearchBar = () => {
                                placeholder={"Search a track..."}
                                type="text"
                                ref={searchRef}
+                               className=" font-[Montserrat] placeholder:font-[Montserrat] placeholder:text-sm"
                         />
                     </>
                 }

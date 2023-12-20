@@ -6,7 +6,7 @@
   display: flex;
   flex-flow: column;
   background-color: #fff;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
   width: 7.5vw;
   user-select: none;
 }
@@ -14,7 +14,7 @@
   width: 100%;
 }
 .dropdown-profile :hover {
-  background-color: #1abc9c;
+  background-color: rgba(9, 83, 74, 0.6784313725);
   cursor: pointer;
 }
 

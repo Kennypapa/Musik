@@ -35,21 +35,7 @@ function Profile() {
     return (
         <Container>
             <div className={"Profile"}>
-                <div className="top-profile">
-                    <Avatar variant={"rounded"} src={require("../assets/img/avatar2.jpg")}
-                            style={{width: "150px", height: "150px"}}>
-                        VS
-                    </Avatar>
-                    <div className="profile-detail">
-                        <h3>Vishal Singh</h3>
-                        <span className={"profile-playlist"}>
-                            <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay}
-                                            href={"/home/playlist/instrumental"} title={"Instrumental"}/>
-                            <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}
-                                            title={"Electronic"}/>
-                        </span>
-                    </div>
-                </div>
+               
                 <div className="bottom-profile">
                     <div>
                         <h3>Most Played</h3>

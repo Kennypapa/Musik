@@ -40,7 +40,7 @@ const Search = () => {
                         {
                             searchResult.length === 0
                                 ?
-                                <div className={"Search-fallback"}>
+                                <div className="text-lg text-center pl-6 pt-8">
                                     No result found.
                                 </div>
                                 :

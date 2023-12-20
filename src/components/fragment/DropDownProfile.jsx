@@ -8,7 +8,7 @@ const DropDownProfile = () => {
     const useStyle = useContext(ThemeContext);
     return (
         <div style={useStyle.component} className="dropdown-profile">
-            <HoverButton Icon={AccountBox} variant={"text"} text={"Profile"}/>
+            <HoverButton variant={"text"} text={"Profile"}/>
             {/*<HoverButton Icon={Explore} variant={"text"} text={"About"}/>*/}
         </div>
     );
