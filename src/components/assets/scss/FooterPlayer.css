@@ -70,6 +70,7 @@
 }
 .playback-widgets .volume {
   padding-right: 10px;
+
 }
 
 @media only screen and (max-width: 970px) {
@@ -84,6 +85,7 @@
   .repeat, .prev, .next {
     display: none;
   }
+
 }
 @media only screen and (max-width: 264px) {
   .footer-player .curr-music-details {

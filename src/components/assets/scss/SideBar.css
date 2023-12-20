@@ -53,6 +53,9 @@ background: linear-gradient(90deg, rgba(198,10,240,0.8743872549019608) 0%, rgba(
   cursor: pointer;
   border-radius: 99px;
 }
+.sidebar_ul li a.active{ 
+  background-color: red!important;
+}
 
 @media only screen and (max-width: 970px) {
   .aside-bar {

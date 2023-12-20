@@ -19,22 +19,24 @@ function SideBar() {
                     <span className=" font-[Montserrat]">LIBRARY</span>
                 </p>
                 {/* <SideBarOptions className={"lib-sub"}    href={"/home"} title={"Home"} /> */}
-                <ul className="pt-4 pl-4 pb-8">
+                <ul className="pt-4 pl-2 pr-1  sidebar_ul">
                     <li className="mb-5">
-                        <NavLink to={"/home"} className="flex justify-start items-center">
+                        <NavLink to={"/home"} className="flex justify-start items-center py-2  hover:bg-[#282c341f] rounded-sm pl-2">
                             <i class="fa-solid fa-house pr-4"></i>
                             <p className="font-[500] font-[Montserrat] text-sm">Home</p>
                         </NavLink>
                     </li>
-                    <li className="mb-5">
+
+                    {/* <li className="mb-5">
                         <NavLink
                             to={"/home/about"}
-                            className="flex justify-start items-center"
+                            className="flex justify-start items-center py-2  hover:bg-[#282c341f] rounded-sm pl-2"
                         >
                             <i class="fa-solid fa-address-card pr-4"></i>
                             <p className="font-[500] font-[Montserrat] text-sm">About</p>
                         </NavLink>
-                    </li>
+                    </li> */}
+
                     {/* <li>
                         <NavLink
                             to={"/home/search"}
@@ -53,11 +55,11 @@ function SideBar() {
                 <p className={"p1"}>
                     <span className="font-[Montserrat]">MY PLAYLIST</span>
                 </p>
-                <ul className="pt-4 pl-4 pb-8">
+                <ul className="pt-4 pl-2 pr-1 pb-8">
                     <li className="mb-5">
                         <NavLink
                             to={"/home/playlist/instrumental"}
-                            className="flex justify-start items-center"
+                            className="flex justify-start items-center py-2  hover:bg-[#282c341f] rounded-sm pl-2"
                         >
                             <i class="fa-solid fa-guitar pr-4"></i>
                             <p className="font-[500] font-[Montserrat] text-sm">
@@ -68,7 +70,7 @@ function SideBar() {
                     <li>
                     <NavLink
                             to={"/home/playlist/electronic"}
-                            className="flex justify-start items-center"
+                            className="flex justify-start items-center py-2  hover:bg-[#282c341f] rounded-sm pl-2"
                         >
                            <i class="fa-solid fa-drum-steelpan pr-4"></i>
                             <p className="font-[500] font-[Montserrat] text-sm">
