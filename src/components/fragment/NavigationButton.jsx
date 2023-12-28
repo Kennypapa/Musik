@@ -3,6 +3,7 @@ import '../assets/scss/NavigationButton.scss';
 import {ThemeContext} from "../../api/Theme";
 import {Link} from "react-router-dom";
 
+
 function NavigationButton(props) {
     const useStyle = useContext(ThemeContext);
     return (

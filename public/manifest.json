@@ -1,3 +1,9 @@
 {
+  "short_name": "Musik",
+  "name": "Musik | The music destination you want.",
 
+  "start_url": ".",
+  "display": "",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
