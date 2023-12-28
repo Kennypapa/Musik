@@ -33,21 +33,7 @@
 .music-card-container .music-card .music-card-cover:hover {
   cursor: pointer;
 }
-.music-card-container .music-card .music-card-cover:hover img {
-  filter: blur(1.5px);
-}
-.music-card-container .music-card .music-card-cover:hover .play-circle {
-  color: #d91a40;
-  visibility: visible;
-}
-.music-card-container .music-card .music-card-details .song-name {
-  font-weight: bolder;
-  font-size: 1.1rem;
-}
-.music-card-container .music-card .music-card-details .author-name {
-  font-weight: lighter;
-  color: gray;
-}
+.music-card-container .music-card .music-card-cover:hover img { 
 
 /* width */
 ::-webkit-scrollbar {

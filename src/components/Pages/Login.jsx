@@ -8,15 +8,17 @@ class Login extends React.Component{
         return(
             <section id="main">
                     <div className="nav-item">
-                        <a className="navbar-brand" href="/">Vusic</a>
+                    <h1 className="musik_txt !text-4xl font-[600] pl-4 pt-3">
+                       Musik <i class="fa-solid fa-headphones fa-phones"></i>
+                    </h1>
                     </div>
                     <div className="main-row">
-                        <div className="main-row-img">
+                        <div className="main-row-img pl-5">
                             <img className="head-phone-img" src={HeadPhone} alt=""/>
                         </div>
                         <div className="main-row-text">
-                            <h1>Music for everyone</h1>
-                            <p>Without music, life would be a mistake</p>
+                            <h1 className="!font-[Montserrat] text-white uppercase font-[600]"> Music for everyone</h1>
+                           
                             <Link to={"/home"} className="btn">
                                 Start Listening
                             </Link>
