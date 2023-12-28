@@ -44,7 +44,7 @@
         font-size: 1.2rem;
       }
       .btn{
-        font-family: "Montserrat", sans-serif !important;
+        font-family: Consolas, sans-serif;
         letter-spacing: 2px;
         border: none;
         background-color: #fff;
@@ -60,5 +60,15 @@
         cursor: pointer;
       }
     }
+  }
+
+}
+
+
+@media only screen and (max-width:411px) {
+  #main .main-row .main-row-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

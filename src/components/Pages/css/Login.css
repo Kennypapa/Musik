@@ -1,6 +1,6 @@
 #main {
   font-family: Consolas, sans-serif;
-  background-color: #09534a!important;
+  background-color: #09534a !important;
   height: 100vh;
   text-align: center;
   display: flex;
@@ -63,4 +63,11 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width:411px) {
+  #main .main-row .main-row-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /*# sourceMappingURL=Login.scss.map */

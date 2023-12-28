@@ -13,16 +13,18 @@ class Login extends React.Component{
                     </h1>
                     </div>
                     <div className="main-row">
+
                         <div className="main-row-img pl-5">
                             <img className="head-phone-img" src={HeadPhone} alt=""/>
                         </div>
                         <div className="main-row-text">
-                            <h1 className="!font-[Montserrat] text-white uppercase font-[600]"> Music for everyone</h1>
-                           
+                            <p className="!font-[Montserrat] lg:!text-6xl  !text-4xl lg:!leading-[65px] !leading-[55px] text-white mb-4 uppercase font-[600]"> Music for everyone</p>
                             <Link to={"/home"} className="btn">
                                 Start Listening
                             </Link>
                         </div>
+
+                        
                     </div>
             </section>
         );
